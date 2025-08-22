@@ -4,7 +4,7 @@
 
 This repo is going to host all of my readings and projects for Art 356 course!!!
 
-add more text
+ had to write this a second time
 
 this is a link-> [to the p5js refrence](https://p5js.org/)
 
