@@ -16,5 +16,6 @@ this *text is italic*
 
 ![this is an image of an emoji](https://i.pinimg.com/564x/17/e7/5f/17e75fd1ddb53abfecf4e8ca19aa355b.jpg)
 
+### Journal Entries
 
-###journal Entries
+visit my [journal 01]()
