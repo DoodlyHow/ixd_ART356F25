@@ -6,17 +6,17 @@ This repo is going to host all of my readings and projects for Art 356 course!!!
 
  had to write this a second time
 
-this is a link-> [to the p5js refrence](https://p5js.org/)
+This is a link-> [to the p5js refrence](https://p5js.org/)
 
 ## this is text styles
 
-this is **BOLD TEXT**
+This is **BOLD TEXT**
 
-this *text is italic*
+This *text is italic*
 
-### this is an image
+### This is an image
 
-![this is an image of an emoji](https://i.pinimg.com/564x/17/e7/5f/17e75fd1ddb53abfecf4e8ca19aa355b.jpg)
+![This is an image of an emoji](https://i.pinimg.com/564x/17/e7/5f/17e75fd1ddb53abfecf4e8ca19aa355b.jpg)
 
 ### Journal Entries
 
