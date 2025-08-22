@@ -1,8 +1,10 @@
 # ixd_ART356F25
 
- Welcome to Noah's Github REPO
+ # Welcome to Noah's First Github REPO!
 
-add more text 
+This repo is going to host all of my readings and projects for Art 356 course!!!
+
+add more text
 
 this is a link-> [to the p5js refrence](https://p5js.org/)
 
