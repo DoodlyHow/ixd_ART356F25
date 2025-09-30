@@ -21,3 +21,7 @@ This *text is italic*
 ### Journal Entries
 
 visit my [journal 01](journal/8262025_.md)
+
+## Exercises
+
+## Projects
