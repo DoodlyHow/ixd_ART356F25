@@ -23,6 +23,6 @@ This *text is italic*
 visit my [journal 01](journal/8262025_.md)
 
 ### Exercises
-visit my [exercise 01](
+visit my [exercise 01](exercises/sceneRandomizer/sketch.js)
 ### Projects
 visit [project 01(
