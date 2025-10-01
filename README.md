@@ -25,4 +25,4 @@ visit my [journal 01](journal/8262025_.md)
 ### Exercises
 visit my [exercise 01](exercises/sceneRandomizer)
 ### Projects
-visit [project 01(
+visit [project 01(/landscapeMaker/)
