@@ -21,7 +21,7 @@ This *text is italic*
 ### Journal Entries
 
 visit my [journal 01](journal/8262025_.md)
-visit my [journal 02]()
+visit my [journal 02](journal/1062025_.md)
 
 ### Exercises
 visit my [exercise 01](exercises/sceneRandomizer)
