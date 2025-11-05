@@ -1,0 +1,26 @@
+/* Remove default margins */
+body {
+  margin: 0;
+  background-color: #ede8d0;
+  font-family: "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  flex-direction: column;  
+  min-height: 100vh;       
+  text-align: center;
+}
+
+h1, h3, a {
+  color: #111;
+  margin: 5px 0;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
