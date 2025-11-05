@@ -8,11 +8,10 @@ let poster;
 function preload() {
   characters = loadJSON("https://api.api-onepiece.com/v2/characters/en");
 
-  // Background map + bounty poster
   bg = loadImage("onePiece-pirateMapPoster-pic.jpg");
   poster = loadImage("WANTEDposter.png");
 
-  // Portrait images (now 12, last two are Zeus + Cavendish)
+  // Portrait images
   portraits = [
     loadImage("Luffy headshot.jpg"),              // 0
     loadImage("Roronoa Zoro headshot.jpg"),       // 1
@@ -24,8 +23,8 @@ function preload() {
     loadImage("Franky Headshot.jpg"),             // 7
     loadImage("Brook Headshot.png"),              // 8
     loadImage("Jinbe Headshot.png"),              // 9
-    loadImage("Zeus Headshot.png"),               // 10  ⬅ NEW
-    loadImage("Cavendish Headshot.png"),          // 11  ⬅ NEW
+    loadImage("Zeus Headshot.png"),               // 10 
+    loadImage("Cavendish Headshot.png"),          // 11  
   ];
 }
 
@@ -34,7 +33,7 @@ function setup() {
   textAlign(CENTER, CENTER);
   textSize(16);
 
-  // Custom positions (3 columns × 4 rows on the left)
+  // positions of buttons
   const positions = [
     { x:  60, y: 120 }, // 1  Luffy
     { x: 210, y: 120 }, // 2  Zoro
@@ -49,11 +48,11 @@ function setup() {
     { x: 360, y: 380 }, // 9  Brook
 
     { x:  60, y: 510 }, // 10 Jinbe
-    { x: 210, y: 510 }, // 11 Zeus       ⬅ NEW
-    { x: 360, y: 510 }, // 12 Cavendish  ⬅ NEW
+    { x: 210, y: 510 }, // 11 Zeus      
+    { x: 360, y: 510 }, // 12 Cavendish  
   ];
 
-  // Create buttons from positions
+  // Create buttons
   for (let i = 0; i < positions.length; i++) {
     const { x, y } = positions[i];
     buttons.push({ x, y, w: 100, h: 100, index: i });
@@ -104,7 +103,7 @@ function draw() {
     rect(btn.x - offsetX, btn.y - offsetY, newW, newH, 10);
   }
 
-  // Selected character info (with fallbacks for empty fields)
+  // Selected character info 
     if (selectedCharacter !== null) {
     const c = characters[selectedCharacter];
     const img = portraits[selectedCharacter];
@@ -112,9 +111,10 @@ function draw() {
       const age    = c.age && c.age.trim() !== "" ? c.age : "—";
       const bounty = c.bounty && c.bounty.trim() !== "" ? c.bounty : "—";
 
-      // Draw character image on poster (centered above text)
+    //image on poster
       image(img, 655, 200, 150, 150);
 
+      // text to go with image from api
       fill(0);
       noStroke();
       textSize(30);
