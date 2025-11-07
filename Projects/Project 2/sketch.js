@@ -112,7 +112,9 @@ function draw() {
       const bounty = c.bounty && c.bounty.trim() !== "" ? c.bounty : "—";
 
     //image on poster
-      image(img, 655, 200, 150, 150);
+       tint(255, 135);
+        image(img, 655, 200, 150, 150);
+      noTint(); 
 
       // text to go with image from api
       fill(0);
